@@ -1,0 +1,23 @@
+{
+  "name": "unix-time-utils",
+  "version": "1.0.0",
+  "description": "A simple utility for calculating future UNIX timestamps in seconds, minutes, hours, and days.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/razdacoder/unix-time-utils"
+  },
+  "keywords": [
+    "unix",
+    "timestamp",
+    "date",
+    "time",
+    "utilities"
+  ],
+  "author": "Ramon Rasheed Ishola",
+  "license": "MIT"
+}
