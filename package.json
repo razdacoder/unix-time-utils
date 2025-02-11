@@ -1,6 +1,6 @@
 {
   "name": "unix-time-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple utility for calculating future UNIX timestamps in seconds, minutes, hours, and days.",
   "main": "index.js",
   "type": "module",
