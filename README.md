@@ -102,7 +102,7 @@ We welcome contributions! To contribute:
 1. **Fork** this repository
 2. **Clone** your forked repo:
    ```sh
-   git clone https://github.com/yourusername/unix-time-utils.git
+   git clone https://github.com/razdacoder/unix-time-utils.git
    ```
 3. **Navigate into the project**:
    ```sh
