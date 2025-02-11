@@ -3,7 +3,7 @@
  * @param {number} seconds Number of seconds to add.
  * @returns {number} Future UNIX timestamp.
  */
-function unixTimeInSeconds(seconds) {
+export function unixTimeInSeconds(seconds) {
   return Math.floor(Date.now() / 1000) + seconds;
 }
 
@@ -12,7 +12,7 @@ function unixTimeInSeconds(seconds) {
  * @param {number} minutes Number of minutes to add.
  * @returns {number} Future UNIX timestamp.
  */
-function unixTimeInMinutes(minutes) {
+export function unixTimeInMinutes(minutes) {
   return unixTimeInSeconds(minutes * 60);
 }
 
@@ -21,7 +21,7 @@ function unixTimeInMinutes(minutes) {
  * @param {number} hours Number of hours to add.
  * @returns {number} Future UNIX timestamp.
  */
-function unixTimeInHours(hours) {
+export function unixTimeInHours(hours) {
   return unixTimeInMinutes(hours * 60);
 }
 
@@ -30,13 +30,6 @@ function unixTimeInHours(hours) {
  * @param {number} days Number of days to add.
  * @returns {number} Future UNIX timestamp.
  */
-function unixTimeInDays(days) {
+export function unixTimeInDays(days) {
   return unixTimeInHours(days * 24);
 }
-
-module.exports = {
-  unixTimeInSeconds,
-  unixTimeInMinutes,
-  unixTimeInHours,
-  unixTimeInDays,
-};
